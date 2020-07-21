@@ -1,0 +1,14 @@
+-->for .env file
+npm install dotenv
+(to create seperate .env file and use it's data in real project varibale 
+as .env file wont go to github)
+
+-->middleware dependencies
+npm install body-parser
+(to parse body request from front end)
+
+npm install cookie-parser
+(to parse headers and cookies)
+
+npm install cors 
+(to handle request from different origin)
