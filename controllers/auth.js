@@ -8,8 +8,12 @@ exports.signup = (req, res) => {
       return res.status(400).json({
         err: "NOT able to save user to DB",
       });
-      res.json(user);
     }
+    res.json({
+      name: user.name,
+      email: user.email,
+      id: user._id,
+    });
   });
 };
 
